@@ -1,4 +1,4 @@
-const { app, BrowserWindow, ipcMain, Menu } = require("electron/main");
+const { app, BrowserWindow, ipcMain } = require("electron/main");
 const fs = require("fs");
 const path = require("node:path");
 
@@ -9,7 +9,7 @@ function createWindow() {
     width: 800,
     height: 600,
     autoHideMenuBar: true,
-    icon: "./assets/icon.png" ,
+    icon: "./assets/icons/icon.png" ,
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
     },
