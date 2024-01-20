@@ -1,8 +1,9 @@
 {
   "devDependencies": {
-    "electron": "^28.1.4"
+    "electron": "^28.1.4",
+    "electron-packager": "^17.1.2"
   },
-  "name": "electron-app",
+  "name": "anas-notepad",
   "version": "1.0.0",
   "main": "main.js",
   "dependencies": {
